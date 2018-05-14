@@ -1,0 +1,34 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "Create-react-app frontend with a Node-Express backend",
+  "author": {
+    "name": "Leandro Frigerio",
+    "email": "leandro.frigerio@devugees.org",
+    "url": "https://digitalcareerinstitute.org"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoDvg/react-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leoDvg/react-express/issues"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}
